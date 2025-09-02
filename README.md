@@ -3,6 +3,10 @@
 ## Setup and instructions
 Using golang 1.25, you can run it with go if already installed locally or you use docker.
 
+- Copy the .env.example in .env and set the openai API_KEY
+    ```shell
+    cp .env.example .env
+    ```
 - Using go installed locally, the app will be available on [localhost](http://127.0.0.1:3000)
     ```shell
     go run *.go
